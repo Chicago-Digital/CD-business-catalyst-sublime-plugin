@@ -41,6 +41,7 @@ There are 3 methods for installing this plugin.
 
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
+
 ---
 
 
@@ -53,6 +54,7 @@ There are 3 methods for installing this plugin.
 Be sure you have enabled "<" in your Preferences.sublime-settings:
 
 `"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"} ],`
+
 ---
 
 
@@ -70,6 +72,7 @@ Simple if decision block
 	<p>Red is the color</p>
 {% endif -%}
 ```
+
 ---
 
 
@@ -91,6 +94,7 @@ Just like a regular IF condition, the only difference is this adds another possi
 	<p>Neither red nor blue.</p>
 {% endif -%}
 ```
+
 ---
 
 
@@ -108,6 +112,7 @@ Unless the condition is true the code is executed
 	<p>The color is not red.</p>
 {% endunless -%}
 ```
+
 ---
 
 
@@ -132,6 +137,7 @@ Do something based on the possible values of a variable. If none of the "known" 
     	Bine ai venit
 {% endcase -%}
 ```
+
 ---
 
 
@@ -186,6 +192,7 @@ In a FOR loop you can access these variables:
 {% endfor -%}
 </ul>
 ```
+
 ---
 
 
@@ -211,6 +218,7 @@ green
 blue
 red
 ```
+
 ---
 
 
@@ -226,6 +234,7 @@ Include is used to pull data from another page.  You can think of it much like y
 ```
 {%include "/to-be-included.html"-%}
 ```
+
 ---
 
 
@@ -241,6 +250,7 @@ This is used to create a new variable.
 ```
 {% assign new_variable = "my new value" -%}
 ```
+
 ---
 
 
@@ -256,6 +266,7 @@ Assign a block of text, HTML code to a variable.
 ```
 {% capture item_date -%}<span style="color:blue">{{item.releaseDate}}</span>{% endcapture -%}
 ```
+
 ---
 
 
@@ -273,6 +284,7 @@ Comments out a block of text. The text between the comment tags does not render 
 	Do not forget to remove comments
 {%endcomment-%}
 ```
+
 ---
 
 
@@ -290,6 +302,7 @@ Raw renders liquid markup in plain text.
 	{{this | json}}
 {%endraw-%}
 ```
+
 ---
 
 
@@ -309,6 +322,7 @@ This will draw a table. You can specify how many columns the table will contain 
 	{% endtablerow -%}
 </table>
 ```
+
 ---
 
 
@@ -326,6 +340,7 @@ http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference
 | Shopping Cart URL		  		 | bcl-globals.cart				  |
 | Cookies stored in domain		 | bcl-globals.cookie			  |
 | globals helper				 | bcl-globals.help	 			  |
+
 ---
 
 
