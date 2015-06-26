@@ -50,7 +50,7 @@ There are 3 methods for installing this plugin.
 
 **all files**: Start typing bcl- in any file along with the element name (see below) and then press 'Tab' to autocomplete the entry
 
-**html_ files**: Start typing `<bcl` in any html file and the autocomplete window opens. It matches fuzzily. So you can type `<bcl-i` to find the `bcl-ifelse` snippet.
+**html files**: Start typing `<bcl` in any html file and the autocomplete window opens. It matches fuzzily. So you can type `<bcl-i` to find the `bcl-ifelse` snippet.
 
 Be sure you have enabled "<" in your Preferences.sublime-settings:
 
@@ -369,4 +369,4 @@ http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference
 
 ### License
 
-Business Catalyst Liquid Snippets is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Business Catalyst Liquid Snippets is open-sourced software licensed under the [MIT license](/license.txt).
