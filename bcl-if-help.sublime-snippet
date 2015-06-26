@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% if ${1:item.Color == 'red' } -%}
+	${0:<p>Red is the color</p>}
+{% endif -%}
+]]></content>
+	<tabTrigger>bcl-if-help</tabTrigger>
+</snippet>

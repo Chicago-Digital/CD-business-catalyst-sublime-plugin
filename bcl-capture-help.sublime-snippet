@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{% capture ${1:item_date} -%}${2:<span style="color:blue">{{item.releaseDate\}\}</span>}{% endcapture -%}
+]]></content>
+	<tabTrigger>bcl-capture-help</tabTrigger>
+</snippet>

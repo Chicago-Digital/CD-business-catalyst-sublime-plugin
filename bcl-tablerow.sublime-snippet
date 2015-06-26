@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<table>
+	{% tablerow $1 in $2 ${3:cols:2} -%}
+		$0
+	{% endtablerow -%}
+</table>
+]]></content>
+	<tabTrigger>bcl-tablerow</tabTrigger>
+</snippet>

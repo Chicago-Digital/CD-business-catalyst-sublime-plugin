@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{globals.site}}
+]]></content>
+	<tabTrigger>bcl-globals</tabTrigger>
+</snippet>

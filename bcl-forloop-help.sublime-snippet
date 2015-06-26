@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{{forloop.$0}}
+{% comment -%}
+	{{forloop.length}} - length of the entire for loop (integer)
+	{{forloop.index}} - index of the current iteration (integer)
+	{{forloop.index0}} - index of the current iteration (zero based) (integer)
+	{{forloop.rindex}} - how many items are still left? (integer)
+	{{forloop.rindex0}} # => how many items are still left? (zero based) (integer)
+	{{forloop.first}} - is this the first iteration? (boolean)
+	{{forloop.last}} - is this the last iteration? (boolean)
+{% endcomment -%}
+]]></content>
+	<tabTrigger>bcl-forloop-help</tabTrigger>
+</snippet>

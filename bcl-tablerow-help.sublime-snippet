@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<table>
+	{% tablerow ${1:item} in ${2:webapp1.items} ${3:cols:2} -%}
+		${0:\{\{item.name\}\}\{\{item.counter\}\}}
+	{% endtablerow -%}
+</table>
+]]></content>
+	<tabTrigger>bcl-tablerow-help</tabTrigger>
+</snippet>

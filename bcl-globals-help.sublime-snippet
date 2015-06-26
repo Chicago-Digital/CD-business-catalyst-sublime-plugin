@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{{globals.$0}}
+{% comment -%}
+	{{globals.get}}
+	{{globals.site}}
+	{{globals.user}}
+	{{globals.visitor}}
+	{{globals.cart}}
+	{{globals.cookie}}
+{% endcomment -%}
+]]></content>
+	<tabTrigger>bcl-globals-help</tabTrigger>
+</snippet>

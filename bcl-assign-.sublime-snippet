@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{% assign $1 = $2 -%}
+]]></content>
+	<tabTrigger>bcl-assign</tabTrigger>
+</snippet>

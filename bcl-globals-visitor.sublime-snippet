@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{globals.visitor}}
+]]></content>
+	<tabTrigger>bcl-globals</tabTrigger>
+</snippet>

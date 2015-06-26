@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{globals.cart}}
+]]></content>
+	<tabTrigger>bcl-globals</tabTrigger>
+</snippet>

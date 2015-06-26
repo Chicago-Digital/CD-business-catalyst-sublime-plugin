@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{%comment-%}
+	$1
+{%endcomment-%}
+]]></content>
+	<tabTrigger>bcl-comment</tabTrigger>
+</snippet>

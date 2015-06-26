@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+{% case $1 -%}
+	{% when '$2' -%}
+		$0
+	{% when '$3' -%}
+		
+	{% else -%}
+		
+{% endcase -%}
+]]></content>
+	<tabTrigger>bcl-case</tabTrigger>
+</snippet>

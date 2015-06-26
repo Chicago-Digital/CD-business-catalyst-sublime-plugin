@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{% capture $1 -%}$2{% endcapture -%}
+]]></content>
+	<tabTrigger>bcl-capture</tabTrigger>
+</snippet>

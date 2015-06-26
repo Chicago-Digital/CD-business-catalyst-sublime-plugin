@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{globals.cookie}}
+]]></content>
+	<tabTrigger>bcl-globals</tabTrigger>
+</snippet>

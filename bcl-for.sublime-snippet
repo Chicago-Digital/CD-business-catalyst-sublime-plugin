@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% for $1 in $2 -%}
+	$0
+{% endfor -%}
+]]></content>
+	<tabTrigger>bcl-for</tabTrigger>
+</snippet>

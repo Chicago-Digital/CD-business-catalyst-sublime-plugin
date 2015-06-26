@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{% assign ${1:new_variable} = ${2:"my new value"} -%}
+]]></content>
+	<tabTrigger>bcl-assign-help</tabTrigger>
+</snippet>

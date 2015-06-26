@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{% case ${1:item.country} -%}
+	{% when '${2:DE}' -%}
+		${5:Willkommen}
+	{% when '${3:ES}' -%}
+		${6:Bienvenido}
+	{% when '${4:EN}' -%}
+		${7:Welcome}
+	{% else -%}
+		${0:Bine ai venit}
+{% endcase -%}
+]]></content>
+	<tabTrigger>bcl-case-help</tabTrigger>
+</snippet>

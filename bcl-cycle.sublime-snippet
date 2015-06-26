@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{% cycle '$1', '$2' -%}
+]]></content>
+	<tabTrigger>bcl-cycle</tabTrigger>
+</snippet>
