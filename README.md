@@ -63,6 +63,8 @@ Be sure you have enabled "<" in your Preferences.sublime-settings:
 
 Most Liquid logic tags have help snippets.  Simple append `-help` to the tag and the snippet will provide a prefilled sample to get you started.
 
+You may also find more helpful examples along with other documentation here:  http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference/logic-tags.html
+
 ---
 
 
