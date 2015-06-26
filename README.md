@@ -11,22 +11,22 @@ Feel free to let me know what else you want added via:
 
 ## What's included - contents
 - [Installation](#installation)
-- [USAGE](#usage)
+- [Usage](#usage)
 - [IF](#if)
-- [IF else](#if-else)
+- [IFELSE](#ifelse)
 - [UNLESS](#unless)
 - [CASE](#case)
 - [FOR](#for)
-- [FORLOOPS](#for-loops)
+- [FORLOOPS](#forloops)
 - [CYCLE](#cycle)
 - [INCLUDE](#include)
 - [ASSIGN](#assign)
 - [CAPTURE](#capture)
 - [COMMENT](#comment)
 - [RAW](#raw)
-- [TABLEROW](#table-row)
+- [TABLEROW](#tablerow)
 - [GLOBALS](#globals)
-- [LICENSE](#license)
+- [License](#license)
 
 
 ### Installation
@@ -41,6 +41,7 @@ There are 3 methods for installing this plugin.
 
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
+---
 
 
 ### Usage
@@ -52,6 +53,7 @@ There are 3 methods for installing this plugin.
 Be sure you have enabled "<" in your Preferences.sublime-settings:
 
 `"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"} ],`
+---
 
 
 ### If
@@ -68,9 +70,10 @@ Simple if decision block
 	<p>Red is the color</p>
 {% endif -%}
 ```
+---
 
 
-### If Else
+### IfElse
 
 Just like a regular IF condition, the only difference is this adds another possible choice.
 
@@ -88,6 +91,7 @@ Just like a regular IF condition, the only difference is this adds another possi
 	<p>Neither red nor blue.</p>
 {% endif -%}
 ```
+---
 
 
 ### Unless
@@ -104,6 +108,7 @@ Unless the condition is true the code is executed
 	<p>The color is not red.</p>
 {% endunless -%}
 ```
+---
 
 
 ### Case
@@ -127,6 +132,7 @@ Do something based on the possible values of a variable. If none of the "known" 
     	Bine ai venit
 {% endcase -%}
 ```
+---
 
 
 ### For
@@ -146,7 +152,7 @@ FOR is used to loop over a collection of items.
 {% endfor -%}
 ```
 
-#### For Loops
+#### ForLoops
 
 In a FOR loop you can access these variables:
 
@@ -180,6 +186,7 @@ In a FOR loop you can access these variables:
 {% endfor -%}
 </ul>
 ```
+---
 
 
 ### Cycle
@@ -204,6 +211,7 @@ green
 blue
 red
 ```
+---
 
 
 ### Include
@@ -218,6 +226,7 @@ Include is used to pull data from another page.  You can think of it much like y
 ```
 {%include "/to-be-included.html"-%}
 ```
+---
 
 
 ### Assign
@@ -232,6 +241,7 @@ This is used to create a new variable.
 ```
 {% assign new_variable = "my new value" -%}
 ```
+---
 
 
 ### Capture
@@ -246,6 +256,7 @@ Assign a block of text, HTML code to a variable.
 ```
 {% capture item_date -%}<span style="color:blue">{{item.releaseDate}}</span>{% endcapture -%}
 ```
+---
 
 
 ### Comment
@@ -262,6 +273,7 @@ Comments out a block of text. The text between the comment tags does not render 
 	Do not forget to remove comments
 {%endcomment-%}
 ```
+---
 
 
 ### Raw
@@ -278,9 +290,10 @@ Raw renders liquid markup in plain text.
 	{{this | json}}
 {%endraw-%}
 ```
+---
 
 
-### Table Row
+### TableRow
 
 This will draw a table. You can specify how many columns the table will contain using the "cols:" value.
 
@@ -296,6 +309,7 @@ This will draw a table. You can specify how many columns the table will contain 
 	{% endtablerow -%}
 </table>
 ```
+---
 
 
 ### Globals
@@ -312,6 +326,7 @@ http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference
 | Shopping Cart URL		  		 | bcl-globals.cart				  |
 | Cookies stored in domain		 | bcl-globals.cookie			  |
 | globals helper				 | bcl-globals.help	 			  |
+---
 
 
 
