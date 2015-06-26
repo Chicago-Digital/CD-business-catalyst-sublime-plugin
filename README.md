@@ -12,6 +12,7 @@ Feel free to let me know what else you want added via:
 ## What's included - contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Help](#help)
 - [IF](#if)
 - [IFELSE](#ifelse)
 - [UNLESS](#unless)
@@ -58,6 +59,13 @@ Be sure you have enabled "<" in your Preferences.sublime-settings:
 ---
 
 
+### Help
+
+Most Liquid logic tags have help snippets.  Simple append `-help` to the tag and the snippet will provide a prefilled sample to get you started.
+
+---
+
+
 ### If
 
 Simple if decision block
@@ -65,6 +73,7 @@ Simple if decision block
 | Snippet code                   |
 | ------------------------------ |
 | bcl-if 	 					 |
+| bcl-if-help 					 |
 
 **Sample**
 ```
@@ -83,6 +92,7 @@ Just like a regular IF condition, the only difference is this adds another possi
 | Snippet code                   |
 | ------------------------------ |
 | bcl-ifelse 					 |
+| bcl-ifelse-help				 |
 
 **Sample**
 ```
@@ -105,6 +115,7 @@ Unless the condition is true the code is executed
 | Snippet code                   |
 | ------------------------------ |
 | bcl-unless 					 |
+| bcl-unless-help				 |
 
 **Sample**
 ```
@@ -123,6 +134,7 @@ Do something based on the possible values of a variable. If none of the "known" 
 | Snippet code                   |
 | ------------------------------ |
 | bcl-case  					 |
+| bcl-case-help					 |
 
 **Sample**
 ```
@@ -148,6 +160,7 @@ FOR is used to loop over a collection of items.
 | Snippet code                   |
 | ------------------------------ |
 | bcl-for 						 |
+| bcl-for-help					 |
 
 **Sample**
 ```
@@ -203,6 +216,7 @@ Render one of a few possible items.
 | Snippet code                   |
 | ------------------------------ |
 | bcl-cycle	 					 |
+| bcl-cycle-help				 |
 
 **Sample**
 ```
@@ -229,6 +243,7 @@ Include is used to pull data from another page.  You can think of it much like y
 | Snippet code                   |
 | ------------------------------ |
 | bcl-include 					 |
+| bcl-include-help				 |
 
 **Sample**
 ```
@@ -245,6 +260,7 @@ This is used to create a new variable.
 | Snippet code                   |
 | ------------------------------ |
 | bcl-assign 					 |
+| bcl-assign-help				 |
 
 **Sample**
 ```
@@ -260,7 +276,8 @@ Assign a block of text, HTML code to a variable.
 
 | Snippet code                   |
 | ------------------------------ |
-| bcl-Capture 	 					 |
+| bcl-capture 	 				 |
+| bcl-capture-help 				 |
 
 **Sample**
 ```
@@ -277,6 +294,7 @@ Comments out a block of text. The text between the comment tags does not render 
 | Snippet code                   |
 | ------------------------------ |
 | bcl-comment 					 |
+| bcl-comment-help				 |
 
 **Sample**
 ```
@@ -295,6 +313,7 @@ Raw renders liquid markup in plain text.
 | Snippet code                   |
 | ------------------------------ |
 | bcl-raw 	 					 |
+| bcl-raw-help 					 |
 
 **Sample**
 ```
@@ -313,6 +332,7 @@ This will draw a table. You can specify how many columns the table will contain 
 | Snippet code                   |
 | ------------------------------ |
 | bcl-tablerow 					 |
+| bcl-tablerow-help				 |
 
 **Sample**
 ```
