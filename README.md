@@ -48,7 +48,7 @@ There are 3 methods for installing this plugin.
 
 ### Usage
 
-**all files**: Start typing bcl- in any file along with the element name (see below) and then press 'Tab' to autocomplete the entry
+**all files**: Start typing bcl- in any file along with the element name (see below) and then press 'Tab' to autocomplete the entry.  Once you have the snippet on the page, you can [tab] through the liquid logic to provide your inputs.
 
 **html files**: Start typing `<bcl` in any html file and the autocomplete window opens. It matches fuzzily. So you can type `<bcl-i` to find the `bcl-ifelse` snippet.
 
@@ -61,7 +61,7 @@ Be sure you have enabled "<" in your Preferences.sublime-settings:
 
 ### Help
 
-Most Liquid logic tags have help snippets.  Simple append `-help` to the tag and the snippet will provide a prefilled sample to get you started.
+Most Liquid logic tags have help snippets.  Append `-help` to the tag and the snippet will provide a prefilled sample to get you started.
 
 You may also find more helpful examples along with other documentation here:  http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference/logic-tags.html
 
