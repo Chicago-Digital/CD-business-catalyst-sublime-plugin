@@ -2,7 +2,7 @@
 	<content><![CDATA[
 {% if ${1:item.Color == 'red'} -%}
 	${2:<p>Red is the color</p>}
-{% elsif ${3:item.Color == 'blue'} -%}
+{% elseif ${3:item.Color == 'blue'} -%}
 	${4:<p>Blue is the color</p>}
 {% else -%}
 	${5:<p>Neither red nor blue.</p>}
