@@ -100,7 +100,7 @@ Just like a regular IF condition, the only difference is this adds another possi
 ```
 {% if item.Color == 'red' -%}
 	<p>Red is the color</p>
-{% elsif item.Color == 'blue' -%}
+{% elseif item.Color == 'blue' -%}
 	<p>Blue is the color</p>
 {% else -%}
 	<p>Neither red nor blue.</p>
