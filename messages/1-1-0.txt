@@ -1,0 +1,17 @@
+================================================================
+Business Catalyst Liquid Snippets -> v1.1.0
+================================================================
+    Snippets include BC Liquid logic tags as of 6/26/2015
+================================================================
+Follow me on Twitter: @PhilMarcuson
+----------------------------------------------------------------
+
+Updates
+----------------------------------------------------------------
+- Snippets:
+	* bcl-ifelse	
+- readme file
+- COMING SOON - Modules.
+-----------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/PhilMarcuson/business-catalyst-sublime-plugin
