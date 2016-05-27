@@ -63,7 +63,7 @@ Be sure you have enabled "<" in your Preferences.sublime-settings:
 
 Most Liquid logic tags have help snippets.  Append `-help` to the tag and the snippet will provide a prefilled sample to get you started.
 
-You may also find more helpful examples along with other documentation here:  http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference/logic-tags.html
+You may also find more helpful examples along with other documentation here:  http://docs.businesscatalyst.com/reference/liquid/logic-tags.html
 
 ---
 
@@ -350,7 +350,7 @@ This will draw a table. You can specify how many columns the table will contain 
 
 ### Globals
 
-http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference/globals.html
+http://docs.businesscatalyst.com/reference/liquid/globals.html
 
 | Description              		 | Snippet code                   |
 |------------------------------- | ------------------------------ |
