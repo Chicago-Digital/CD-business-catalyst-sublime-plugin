@@ -2,7 +2,7 @@
 	<content><![CDATA[
 {% for ${1:item} in ${2:collection.items} -%}
 	${0:<p>
-    	This item's name is: {{collection.name\}\} 
+    	This item's name is: {{item.name\}\} 
 	</p>}
 {% endfor -%}
 ]]></content>
