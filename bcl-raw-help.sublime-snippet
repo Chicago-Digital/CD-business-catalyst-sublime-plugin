@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {%raw-%}
-	${1:{{this | json\}\}}
+	${1:\{\{this | json\}\}}
 {%endraw-%}
 ]]></content>
 	<tabTrigger>bcl-raw-help</tabTrigger>
