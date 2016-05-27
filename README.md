@@ -355,13 +355,13 @@ http://docs.businesscatalyst.com/dev-assets/reference/liquid-reference/reference
 | Description              		 | Snippet code                   |
 |------------------------------- | ------------------------------ |
 | globals tag with automcomplete | bcl-globals					  |
-| URL Information				 | bcl-globals.get				  |
-| Site information				 | bcl-globals.site 			  |
-| User Information (logged in) 	 | bcl-globals.user				  |
-| Visitor Information		     | bcl-globals.visitor            |
-| Shopping Cart URL		  		 | bcl-globals.cart				  |
-| Cookies stored in domain		 | bcl-globals.cookie			  |
-| globals helper				 | bcl-globals.help	 			  |
+| URL Information				 | bcl-globals-get				  |
+| Site information				 | bcl-globals-site 			  |
+| User Information (logged in) 	 | bcl-globals-user				  |
+| Visitor Information		     | bcl-globals-visitor            |
+| Shopping Cart URL		  		 | bcl-globals-cart				  |
+| Cookies stored in domain		 | bcl-globals-cookie			  |
+| globals helper				 | bcl-globals-help	 			  |
 
 ---
 
