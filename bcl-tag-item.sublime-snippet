@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{item.}}
+]]></content>
+	<tabTrigger>bcl-tag</tabTrigger>
+</snippet>
