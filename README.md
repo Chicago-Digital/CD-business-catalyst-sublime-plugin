@@ -1,4 +1,4 @@
-Business Catalyst Liquid Snippets
+Business Catalyst Liquid Snippets Triggers
 ==================
 
 A sublime plugin complete with Adobe Business Catalyst Liquid elements.
