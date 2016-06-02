@@ -2,5 +2,5 @@
 	<content><![CDATA[
 {{item.$1}}
 ]]></content>
-	<tabTrigger>bcl-tag</tabTrigger>
+	<tabTrigger>bcl-tag-item</tabTrigger>
 </snippet>
