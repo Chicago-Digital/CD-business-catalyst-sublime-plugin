@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{{globals.test}}
+{{globals.test123}}
 ]]></content>
 	<tabTrigger>bcl-globals</tabTrigger>
 </snippet>
