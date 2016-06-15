@@ -3,5 +3,5 @@
 {{globals.site.dateNow}}
 {{globals.site.dateNow | date: "yyyy"}}
 ]]></content>
-	<tabTrigger>bcl-date-compare</tabTrigger>
+	<tabTrigger>bcl-date</tabTrigger>
 </snippet>

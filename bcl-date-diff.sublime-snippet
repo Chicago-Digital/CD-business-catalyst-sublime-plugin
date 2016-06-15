@@ -4,5 +4,5 @@
 {% assign diffDays = globals.site.dateNow | minus: myDate | date: "%d" -%}
 {% if diffDays <= 5 -%}<li class="tag-new">New {{diffDays}}</li>{% endif -%}
 ]]></content>
-	<tabTrigger>bcl-date-compare</tabTrigger>
+	<tabTrigger>bcl-date</tabTrigger>
 </snippet>

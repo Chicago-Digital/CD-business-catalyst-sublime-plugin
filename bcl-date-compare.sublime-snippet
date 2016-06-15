@@ -8,5 +8,5 @@
 <!--If item date is in the past then this will output-->
 {% endif -%}
 ]]></content>
-	<tabTrigger>bcl-date-compare</tabTrigger>
+	<tabTrigger>bcl-date</tabTrigger>
 </snippet>
