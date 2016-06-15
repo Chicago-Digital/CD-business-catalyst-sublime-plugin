@@ -1,4 +1,4 @@
-Business Catalyst Liquid Snippets Test
+Business Catalyst Liquid Snippets
 ==================
 
 A sublime plugin complete with Adobe Business Catalyst Liquid elements.
