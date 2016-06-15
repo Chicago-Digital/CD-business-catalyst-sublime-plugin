@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+{% if globals.site.dateNow < date -%}
+<!--If item date is in the future then this will output-->
+{% endif -%}
+
+{% if globals.site.dateNow > date -%}
+<!--If item date is in the past then this will output-->
+{% endif -%}
+]]></content>
+	<tabTrigger>bcl-date-compare</tabTrigger>
+</snippet>

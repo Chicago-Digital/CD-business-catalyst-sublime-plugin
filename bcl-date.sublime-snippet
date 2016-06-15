@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{$0 | date:"MMMM d, yyyy"}}
+]]></content>
+	<tabTrigger>bcl-date</tabTrigger>
+</snippet>

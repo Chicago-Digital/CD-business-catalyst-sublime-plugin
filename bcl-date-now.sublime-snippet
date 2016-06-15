@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+{{globals.site.dateNow}}
+{{globals.site.dateNow | date: "yyyy"}}
+]]></content>
+	<tabTrigger>bcl-date-compare</tabTrigger>
+</snippet>
