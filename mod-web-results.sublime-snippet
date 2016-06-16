@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+		{module_webappsresults render="items|collection" targetFrame="_blank" resultsPerPage="4" hideEmptyMessage="true" rowCount="2" sortType="DATE" collection="my_custom_collection_name" template=""}$0
+]]></content>
+	<tabTrigger>mod-web-results</tabTrigger>
+</snippet>
