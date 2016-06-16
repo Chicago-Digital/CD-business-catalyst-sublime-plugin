@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+		{module_menu menuID="$0" render="collection" collection="my_custom_collection_name" template="/folder/template.tpl"}
+]]></content>
+	<tabTrigger>mod-menu</tabTrigger>
+</snippet>
